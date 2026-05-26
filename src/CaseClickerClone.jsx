@@ -1,4 +1,4 @@
-const { useState, useEffect } = React;
+import { useState, useEffect } from 'react';
                     onClick={() => sellItem(item.id, item.value)}
                     className="bg-red-500 hover:bg-red-400 px-4 py-2 rounded-xl font-semibold"
                   >
